@@ -24,7 +24,7 @@ ReelFinder is a modern web application designed for movie enthusiasts. It levera
 
 ## 🛠 Tech Stack
 * **Frontend:** React, Vite
-* **Styling:** CSS3 / Tailwind (ändra om du använder annat)
+* **Styling:** Tailwind CSS
 * **Backend/Database:** Firebase (Auth & Firestore)
 * **API:** TMDB (The Movie Database)
 * **Deployment:** Netlify
@@ -33,10 +33,10 @@ ReelFinder is a modern web application designed for movie enthusiasts. It levera
 
 **Prerequisites:** Node.js (v18+)
 
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/DITT_ANVÄNDARNAMN/reelfinder.git](https://github.com/DITT_ANVÄNDARNAMN/reelfinder.git)
-    cd reelfinder
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/StIbanez22/reelfinder-v1.git
+   cd reelfinder-v1
     ```
 
 2.  **Install dependencies:**
@@ -48,8 +48,12 @@ ReelFinder is a modern web application designed for movie enthusiasts. It levera
     Create a `.env` file in the root and add your API keys:
     ```env
     VITE_TMDB_API_KEY=your_tmdb_key
-    VITE_FIREBASE_API_KEY=your_firebase_key
-    # Add other Firebase config variables here
+    VITE_FIREBASE_API_KEY=your_api_key
+    VITE_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
+    VITE_FIREBASE_PROJECT_ID=your_project_id
+    VITE_FIREBASE_STORAGE_BUCKET=your_project.appspot.com
+    VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+    VITE_FIREBASE_APP_ID=your_app_id
     ```
 
 4.  **Run the app:**
